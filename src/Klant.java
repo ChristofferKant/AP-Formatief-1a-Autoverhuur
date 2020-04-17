@@ -6,7 +6,9 @@ public class Klant {
         naam = nm;
     }
 
-    public void setKortings(double kP) {kortingspercentage = kP;}
+    public void setKorting(double kP) {kortingspercentage = kP;}
 
-    
+    public String toString() {
+        return "TODO";
+    }
 }
